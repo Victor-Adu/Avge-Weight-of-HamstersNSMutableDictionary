@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B51C860191973A800DA2D64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B51C85F191973A800DA2D64 /* Foundation.framework */; };
+		5B51C862191973A800DA2D64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B51C861191973A800DA2D64 /* CoreGraphics.framework */; };
+		5B51C864191973A800DA2D64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B51C863191973A800DA2D64 /* UIKit.framework */; };
+		5B51C86A191973A800DA2D64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B51C868191973A800DA2D64 /* InfoPlist.strings */; };
+		5B51C86C191973A800DA2D64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B51C86B191973A800DA2D64 /* main.m */; };
+		5B51C870191973A800DA2D64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B51C86F191973A800DA2D64 /* AppDelegate.m */; };
+		5B51C873191973A800DA2D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B51C871191973A800DA2D64 /* Main.storyboard */; };
+		5B51C876191973A800DA2D64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B51C875191973A800DA2D64 /* ViewController.m */; };
+		5B51C878191973A800DA2D64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B51C877191973A800DA2D64 /* Images.xcassets */; };
+		5B51C87F191973A800DA2D64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B51C87E191973A800DA2D64 /* XCTest.framework */; };
+		5B51C880191973A800DA2D64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B51C85F191973A800DA2D64 /* Foundation.framework */; };
+		5B51C881191973A800DA2D64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B51C863191973A800DA2D64 /* UIKit.framework */; };
+		5B51C889191973A800DA2D64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B51C887191973A800DA2D64 /* InfoPlist.strings */; };
+		5B51C88B191973A800DA2D64 /* Avge_Hamster_Weight_NSDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B51C88A191973A800DA2D64 /* Avge_Hamster_Weight_NSDictionaryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B51C882191973A800DA2D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B51C854191973A800DA2D64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B51C85B191973A800DA2D64;
+			remoteInfo = "Avge Hamster Weight NSDictionary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B51C85C191973A800DA2D64 /* Avge Hamster Weight NSDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avge Hamster Weight NSDictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B51C85F191973A800DA2D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B51C861191973A800DA2D64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B51C863191973A800DA2D64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B51C867191973A800DA2D64 /* Avge Hamster Weight NSDictionary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Avge Hamster Weight NSDictionary-Info.plist"; sourceTree = "<group>"; };
+		5B51C869191973A800DA2D64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B51C86B191973A800DA2D64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B51C86D191973A800DA2D64 /* Avge Hamster Weight NSDictionary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Avge Hamster Weight NSDictionary-Prefix.pch"; sourceTree = "<group>"; };
+		5B51C86E191973A800DA2D64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B51C86F191973A800DA2D64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B51C872191973A800DA2D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B51C874191973A800DA2D64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B51C875191973A800DA2D64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B51C877191973A800DA2D64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B51C87D191973A800DA2D64 /* Avge Hamster Weight NSDictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Avge Hamster Weight NSDictionaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B51C87E191973A800DA2D64 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5B51C886191973A800DA2D64 /* Avge Hamster Weight NSDictionaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Avge Hamster Weight NSDictionaryTests-Info.plist"; sourceTree = "<group>"; };
+		5B51C888191973A800DA2D64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B51C88A191973A800DA2D64 /* Avge_Hamster_Weight_NSDictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Avge_Hamster_Weight_NSDictionaryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B51C859191973A800DA2D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B51C862191973A800DA2D64 /* CoreGraphics.framework in Frameworks */,
+				5B51C864191973A800DA2D64 /* UIKit.framework in Frameworks */,
+				5B51C860191973A800DA2D64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B51C87A191973A800DA2D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B51C87F191973A800DA2D64 /* XCTest.framework in Frameworks */,
+				5B51C881191973A800DA2D64 /* UIKit.framework in Frameworks */,
+				5B51C880191973A800DA2D64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B51C853191973A800DA2D64 = {
+			isa = PBXGroup;
+			children = (
+				5B51C865191973A800DA2D64 /* Avge Hamster Weight NSDictionary */,
+				5B51C884191973A800DA2D64 /* Avge Hamster Weight NSDictionaryTests */,
+				5B51C85E191973A800DA2D64 /* Frameworks */,
+				5B51C85D191973A800DA2D64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B51C85D191973A800DA2D64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B51C85C191973A800DA2D64 /* Avge Hamster Weight NSDictionary.app */,
+				5B51C87D191973A800DA2D64 /* Avge Hamster Weight NSDictionaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B51C85E191973A800DA2D64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B51C85F191973A800DA2D64 /* Foundation.framework */,
+				5B51C861191973A800DA2D64 /* CoreGraphics.framework */,
+				5B51C863191973A800DA2D64 /* UIKit.framework */,
+				5B51C87E191973A800DA2D64 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B51C865191973A800DA2D64 /* Avge Hamster Weight NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				5B51C86E191973A800DA2D64 /* AppDelegate.h */,
+				5B51C86F191973A800DA2D64 /* AppDelegate.m */,
+				5B51C871191973A800DA2D64 /* Main.storyboard */,
+				5B51C874191973A800DA2D64 /* ViewController.h */,
+				5B51C875191973A800DA2D64 /* ViewController.m */,
+				5B51C877191973A800DA2D64 /* Images.xcassets */,
+				5B51C866191973A800DA2D64 /* Supporting Files */,
+			);
+			path = "Avge Hamster Weight NSDictionary";
+			sourceTree = "<group>";
+		};
+		5B51C866191973A800DA2D64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B51C867191973A800DA2D64 /* Avge Hamster Weight NSDictionary-Info.plist */,
+				5B51C868191973A800DA2D64 /* InfoPlist.strings */,
+				5B51C86B191973A800DA2D64 /* main.m */,
+				5B51C86D191973A800DA2D64 /* Avge Hamster Weight NSDictionary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B51C884191973A800DA2D64 /* Avge Hamster Weight NSDictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B51C88A191973A800DA2D64 /* Avge_Hamster_Weight_NSDictionaryTests.m */,
+				5B51C885191973A800DA2D64 /* Supporting Files */,
+			);
+			path = "Avge Hamster Weight NSDictionaryTests";
+			sourceTree = "<group>";
+		};
+		5B51C885191973A800DA2D64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B51C886191973A800DA2D64 /* Avge Hamster Weight NSDictionaryTests-Info.plist */,
+				5B51C887191973A800DA2D64 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B51C85B191973A800DA2D64 /* Avge Hamster Weight NSDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B51C88E191973A800DA2D64 /* Build configuration list for PBXNativeTarget "Avge Hamster Weight NSDictionary" */;
+			buildPhases = (
+				5B51C858191973A800DA2D64 /* Sources */,
+				5B51C859191973A800DA2D64 /* Frameworks */,
+				5B51C85A191973A800DA2D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Avge Hamster Weight NSDictionary";
+			productName = "Avge Hamster Weight NSDictionary";
+			productReference = 5B51C85C191973A800DA2D64 /* Avge Hamster Weight NSDictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B51C87C191973A800DA2D64 /* Avge Hamster Weight NSDictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B51C891191973A800DA2D64 /* Build configuration list for PBXNativeTarget "Avge Hamster Weight NSDictionaryTests" */;
+			buildPhases = (
+				5B51C879191973A800DA2D64 /* Sources */,
+				5B51C87A191973A800DA2D64 /* Frameworks */,
+				5B51C87B191973A800DA2D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B51C883191973A800DA2D64 /* PBXTargetDependency */,
+			);
+			name = "Avge Hamster Weight NSDictionaryTests";
+			productName = "Avge Hamster Weight NSDictionaryTests";
+			productReference = 5B51C87D191973A800DA2D64 /* Avge Hamster Weight NSDictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B51C854191973A800DA2D64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Victor  Adu";
+				TargetAttributes = {
+					5B51C87C191973A800DA2D64 = {
+						TestTargetID = 5B51C85B191973A800DA2D64;
+					};
+				};
+			};
+			buildConfigurationList = 5B51C857191973A800DA2D64 /* Build configuration list for PBXProject "Avge Hamster Weight NSDictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B51C853191973A800DA2D64;
+			productRefGroup = 5B51C85D191973A800DA2D64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B51C85B191973A800DA2D64 /* Avge Hamster Weight NSDictionary */,
+				5B51C87C191973A800DA2D64 /* Avge Hamster Weight NSDictionaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B51C85A191973A800DA2D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B51C878191973A800DA2D64 /* Images.xcassets in Resources */,
+				5B51C86A191973A800DA2D64 /* InfoPlist.strings in Resources */,
+				5B51C873191973A800DA2D64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B51C87B191973A800DA2D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B51C889191973A800DA2D64 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B51C858191973A800DA2D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B51C876191973A800DA2D64 /* ViewController.m in Sources */,
+				5B51C870191973A800DA2D64 /* AppDelegate.m in Sources */,
+				5B51C86C191973A800DA2D64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B51C879191973A800DA2D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B51C88B191973A800DA2D64 /* Avge_Hamster_Weight_NSDictionaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B51C883191973A800DA2D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B51C85B191973A800DA2D64 /* Avge Hamster Weight NSDictionary */;
+			targetProxy = 5B51C882191973A800DA2D64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B51C868191973A800DA2D64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B51C869191973A800DA2D64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B51C871191973A800DA2D64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B51C872191973A800DA2D64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B51C887191973A800DA2D64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B51C888191973A800DA2D64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B51C88C191973A800DA2D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B51C88D191973A800DA2D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B51C88F191973A800DA2D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Avge Hamster Weight NSDictionary/Avge Hamster Weight NSDictionary-Prefix.pch";
+				INFOPLIST_FILE = "Avge Hamster Weight NSDictionary/Avge Hamster Weight NSDictionary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B51C890191973A800DA2D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Avge Hamster Weight NSDictionary/Avge Hamster Weight NSDictionary-Prefix.pch";
+				INFOPLIST_FILE = "Avge Hamster Weight NSDictionary/Avge Hamster Weight NSDictionary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5B51C892191973A800DA2D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Avge Hamster Weight NSDictionary.app/Avge Hamster Weight NSDictionary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Avge Hamster Weight NSDictionary/Avge Hamster Weight NSDictionary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Avge Hamster Weight NSDictionaryTests/Avge Hamster Weight NSDictionaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5B51C893191973A800DA2D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Avge Hamster Weight NSDictionary.app/Avge Hamster Weight NSDictionary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Avge Hamster Weight NSDictionary/Avge Hamster Weight NSDictionary-Prefix.pch";
+				INFOPLIST_FILE = "Avge Hamster Weight NSDictionaryTests/Avge Hamster Weight NSDictionaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B51C857191973A800DA2D64 /* Build configuration list for PBXProject "Avge Hamster Weight NSDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B51C88C191973A800DA2D64 /* Debug */,
+				5B51C88D191973A800DA2D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B51C88E191973A800DA2D64 /* Build configuration list for PBXNativeTarget "Avge Hamster Weight NSDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B51C88F191973A800DA2D64 /* Debug */,
+				5B51C890191973A800DA2D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B51C891191973A800DA2D64 /* Build configuration list for PBXNativeTarget "Avge Hamster Weight NSDictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B51C892191973A800DA2D64 /* Debug */,
+				5B51C893191973A800DA2D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B51C854191973A800DA2D64 /* Project object */;
+}
